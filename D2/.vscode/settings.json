@@ -1,0 +1,6 @@
+{
+    "files.watcherExclude": {
+        "**/target": true
+    },
+    "python.pythonPath": "/opt/conda/envs/geospark_demo/bin/python"
+}

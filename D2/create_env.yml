@@ -1,0 +1,24 @@
+name: geospark_demo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.7.*
+  - pip
+  - jupyterlab  # for test
+  - pyspark==2.4.*
+  - openjdk==8.*
+  - pyarrow
+  - pandas
+  - geopandas
+  - folium      # for test
+  - matplotlib  # for test
+  - descartes   # for test
+  - ipykernel
+  - envkernel
+  - pip:
+    - geospark
+    - memory-profiler
+variables:
+  SPARK_HOME: /opt/conda/envs/geospark_demo/lib/python3.7/site-packages/pyspark
+  ARROW_PRE_0_15_IPC_FORMAT: 1
